@@ -3,7 +3,7 @@
 /**
  * main - this is the main
  *
- * Description: thisis 
+ * Description: thisis
  * Return: yejed
  */
 int main(void)
