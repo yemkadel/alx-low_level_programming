@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_sign - this is a sign func
+ *@n: this is the number to be checked
  *
  * Description: this is the desc
  * Return: returns and integer
