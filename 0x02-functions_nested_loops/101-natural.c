@@ -9,7 +9,7 @@ void multiple(int n);
 
 int main(void)
 {
-	multiple(10);
+	multiple(1024);
 	return (0);
 }
 
@@ -23,7 +23,7 @@ void multiple(int n)
 {
 	int i, sum = 0;
 
-	if (n < 1024)
+	if (n > 0)
 	{
 		for (i = 0; i < n; i++)
 		{
