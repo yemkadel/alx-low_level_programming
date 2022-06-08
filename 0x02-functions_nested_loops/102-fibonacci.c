@@ -17,5 +17,6 @@ int main(void)
 		b = num;
 		printf(", %li", num);
 	}
-	return(0);
+	printf("\n");
+	return (0);
 }
