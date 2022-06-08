@@ -5,10 +5,14 @@
  * Return: it returns and interger value
  */
 
-void _islower(int c)
+int _islower(int c)
 {
-	if (c > 'z')
+	if ((c >= 90) && (c <= 122))
 	{
-		_putchar('0');
+		return (1);
+	}
+	else
+	{
+		return (0);
 	}
 }
