@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * jack_bauer - displays time
+ * @x: the parameter is used in formating
  *
  * Description: this is the desc
  * Return: this is the return
