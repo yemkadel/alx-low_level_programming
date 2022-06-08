@@ -9,7 +9,7 @@ void multiple(int n);
 
 int main(void)
 {
-	multiple(200);
+	multiple(10);
 	return (0);
 }
 
@@ -32,6 +32,6 @@ void multiple(int n)
 				sum += i;
 			}
 		}
-		printf("The sum is : %i\n", sum);
+		printf("%i\n", sum);
 	}
 }
