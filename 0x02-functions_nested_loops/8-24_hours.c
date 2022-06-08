@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * jack_bauer - displays time
- * @x: the parameter is used in formating
  *
  * Description: this is the desc
  * Return: this is the return
@@ -24,6 +23,13 @@ void jack_bauer(void)
 	}
 }
 
+/**
+ * format - this function formats
+ * @x: what is used
+ *
+ * Description: desrip
+ * Return: void
+ */
 void format(int x)
 {
 	if (x > 10)
