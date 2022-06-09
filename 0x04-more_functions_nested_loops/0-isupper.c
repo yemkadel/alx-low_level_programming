@@ -1,5 +1,5 @@
 /**
- * _isupper
+ * _isupper - this is the main
  *@c: param1
  *
  * Return: int
