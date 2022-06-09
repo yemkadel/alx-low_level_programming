@@ -5,11 +5,10 @@
  *
  * Return: void
  */
-int _isupper(char c)
+int _isupper(int c)
 {
-	int x = c;
 
-	if (x >= 65 && x <= 90)
+	if (c >= 65 && c <= 90)
 	{
 		return (1);
 	}
