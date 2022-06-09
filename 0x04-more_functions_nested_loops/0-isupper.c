@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _isupper - this is the main
  *@c: param1
