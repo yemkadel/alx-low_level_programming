@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * _isupper - this is the main
- *@c: param1
+ * @c: param1
  *
  * Return: int
  */
