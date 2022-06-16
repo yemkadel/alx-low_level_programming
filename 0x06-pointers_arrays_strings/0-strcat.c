@@ -6,16 +6,14 @@
  *
  * Return: char array
  */
-int _strlen(char *s);
+
 char *_strcat(char *dest, char *src)
 {
 	int i = 0;
 	int dlen = _strlen(dest);
-	int slen = _strlen(src);
 
-	while (src[i] != '\0')
+	while (src[i])
 	{
-		dlen = dlen;
 		dest[dlen] = src[i];
 		i++;
 		dlen++;
