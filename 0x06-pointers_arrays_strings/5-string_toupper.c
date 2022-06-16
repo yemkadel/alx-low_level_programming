@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * string_toupper
- * @*: pointer
+ * string_toupper - to upper case
+ * @s: pointer
  *
  * Return: char array
  */
