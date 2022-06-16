@@ -7,7 +7,6 @@
  *
  * Return: char array
  */
-int _strlen(char *s);
 char *_strncat(char *dest, char *src, int n)
 {
 	int i = 0;
