@@ -6,7 +6,7 @@
  *
  * Return: char array
  */
-
+int _strlen(char *s);
 char *_strcat(char *dest, char *src)
 {
 	int i = 0;
@@ -21,5 +21,22 @@ char *_strcat(char *dest, char *src)
 		dlen++;
 	}
 	return (dest);
+}
+
+/**
+ * _strlen - get string len
+ * @s: char array
+ *
+ * Return: Int
+ */
+int _strlen(char *s)
+{
+	int i = 0;
+
+	while (s[i] != '\0')
+	{
+		i++;
+	}
+	return (i);
 }
 
