@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_number - the finc
+ * print - the finc
  * @n: nth value
  *
  * Return: nil
