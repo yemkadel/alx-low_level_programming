@@ -9,32 +9,16 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-	int i = 0;
-	int dlen = _strlen(dest);
+	int i = 0, i2;
 
-	while (i < n)
+	while (dest[i] != '\0')
 	{
-		dest[dlen] = src[i];
 		i++;
-		dlen++;
+	}
+
+	for (i2 = 0; i2 < n; i2++)
+	{
+		dest[i + i2] = src[i2];
 	}
 	return (dest);
 }
-
-/**
- * _strlen - get string len
- * @s: char array
- *
- * Return: Int
- */
-int _strlen(char *s)
-{
-	int i = 0;
-
-	while (s[i] != '\0')
-	{
-		i++;
-	}
-	return (i);
-}
-
