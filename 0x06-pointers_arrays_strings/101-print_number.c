@@ -8,7 +8,7 @@
 
 void print(int n)
 {
-	unsigned i;
+	unsigned int i;
 
 	i = n;
 	if (n < 0)
