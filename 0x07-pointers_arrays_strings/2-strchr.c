@@ -10,18 +10,21 @@
 
 char *_strchr(char *s, char c)
 {
-	int i = 0, counter = 0;
+	int counter = 0;
 	char *n;
-	n = s;
 
-	while (s[counter] != '\0')
+	while (s[counter] != '\0' && s[counter] != c)
 	{
-		if (s[counter] == c || (i > 0 && s[counter]))
-		{
-			n[i] = s[counter];
-			i++;
-		}
 		counter++;
+	}
+
+	if (s[counter] == c)
+	{
+		n = &s[counter];
+	}
+	else
+	{
+		n = '\0';
 	}
 	return (n);
 }
