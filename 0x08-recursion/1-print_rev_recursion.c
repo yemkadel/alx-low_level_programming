@@ -7,25 +7,10 @@
  */
 void _print_rev_recursion(char *s)
 {
-	int i = 0;
-
-	while (s[i] != '\0')
-		i++;
-
 	/*base case*/
-	if (s[1] == '\0')
-	{
-		_putchar(s[0]);
-		_putchar('\n');
+	if (*s == '\0')
 		return;
-	}
-	if (s[0] == '\0')
-	{
-		_putchar('\n');
-		return;
-	}
 
-	_putchar(s[i]);
-	s[i] = '\0';
-	_print_rev_recursion(s);
+	_print_rev_recursion(s + 1);
+	_putchar(*s);
 }
