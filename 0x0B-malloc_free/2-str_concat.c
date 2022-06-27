@@ -27,12 +27,13 @@ int _strlen(char *s)
 char *str_concat(char *s1, char *s2)
 {
 	char *nstr;
+	int j, i, sl;
+
 	if (!s1)
 		s1[0] = '\0';
 	if (!s2)
 		s2[0] = '\0';
-
-	int j, i, sl = _strlen(s1) + _strlen(s2);
+	sl = _strlen(s1) + _strlen(s2);
 
 	nstr = (char *) malloc(sizeof(char) * (sl + 1));
 	if (!nstr)
