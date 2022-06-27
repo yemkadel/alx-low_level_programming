@@ -3,8 +3,8 @@
 #include <stdlib.h>
 /**
  * free_grid - free malloc
- * grid: pointer to 2D array
- * height: number of rows
+ * @grid: pointer to 2D array
+ * @height: number of rows
  *
  * Return: void
  */
@@ -12,7 +12,7 @@ void free_grid(int **grid, int height)
 {
 	int i = height - 1;
 
-	for ( ; 0 <= i; i--)
+	for ( ; i >= 0; i--)
 	{
 		free(grid[i]);
 	}
