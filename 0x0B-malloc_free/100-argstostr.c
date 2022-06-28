@@ -50,7 +50,7 @@ char *argstostr(int ac, char **av)
 		}
 		ptr[j++] = '\n';
 	}
-	ptr[j] = '\0';
+	/*ptr[j] = '\0';*/
 
 	return (ptr);
 }
