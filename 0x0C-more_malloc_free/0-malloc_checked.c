@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+
 /**
  * malloc_checked - checked
  * @b: the size
@@ -14,6 +15,7 @@ void *malloc_checked(unsigned int b)
 	if (ptr == NULL)
 	{
 		exit(98);
+		return (NULL);
 	}
 
 	return (ptr);
