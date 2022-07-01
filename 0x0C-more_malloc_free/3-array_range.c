@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
- * array_range - This function creates an array of integers
+ * array_range - creates an array of ints
  * @min: The minimum number of the array
  * @max: The maximum number of the array
- * Return: return a base address of the new allocated memory for array
+ * Return: address of the new allocated memory for array
  */
 
 int *array_range(int min, int max)
@@ -32,5 +31,5 @@ int *array_range(int min, int max)
 		i++;
 	}
 
-return (array);
+	return (array);
 }
