@@ -17,13 +17,19 @@ int main(int argc, char **argv)
 	if (f == NULL)
 	{
 		printf("Error\n");
-		return (99);
+		exit(99);
+	}
+
+	if (argv[argc - 2][1])
+	{
+		printf("Error\n");
+		exit(99);
 	}
 
 	if (argc != 4)
 	{
 		printf("Error\n");
-		return (98);
+		exit(98);
 	}
 
 	res = f(atoi(argv[argc - 3]), atoi(argv[argc - 1]));
