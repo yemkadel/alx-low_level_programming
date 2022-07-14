@@ -23,4 +23,4 @@ typedef struct list_s
 /* prototypes */
 size_t print_list(const list_t *h);
 
-#endif
+#endif /*end _LIST_H_*/
