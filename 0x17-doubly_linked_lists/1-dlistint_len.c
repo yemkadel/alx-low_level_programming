@@ -2,24 +2,27 @@
 
 /**
  * dlistint_len - func returns no of elements
- * in linked list
- * @h: a head pointer
+ * a list
  *
+ * @h: pointer head
  * Return: size_t
  */
 size_t dlistint_len(const dlistint_t *h)
 {
-	size_t num;
-	const dlistint *temp;
+	int i;
 
-	temp = h;
-	num = 0;
+	i = 0;
 
-	while (temp != NULL)
+	if (h == NULL)
+		return (i);
+
+	while (h->prev != NULL)
+		h = h->prev;
+
+	while (h != NULL)
 	{
-		temp = temp->next;
-		num++;
+		h = h->next;
+		i++;
 	}
-
-	return (num);
+	return (i);
 }
