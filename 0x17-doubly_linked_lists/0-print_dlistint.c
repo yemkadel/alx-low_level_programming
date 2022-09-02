@@ -27,4 +27,5 @@ size_t print_distint(const dlistint_t *h)
 		i++;
 		h = h->next;
 	}
+	return (i);
 }
