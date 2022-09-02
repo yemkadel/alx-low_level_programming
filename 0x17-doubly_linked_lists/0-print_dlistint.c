@@ -1,17 +1,15 @@
 #include "lists.h"
 /**
- * print_distint - methods prints all elements in a list
+ * print_dlistint - methods prints all elements
  * @h: head
  *
  * Description: double
  * Return: returns the number of nodes
  */
 
-size_t print_distint(const dlistint_t *h)
+size_t print_dlistint(const dlistint_t *h)
 {
-	int i;
-
-	i = 0;
+	int i = 0;
 
 	if (h == NULL)
 	{
