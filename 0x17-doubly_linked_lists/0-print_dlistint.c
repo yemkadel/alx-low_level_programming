@@ -9,7 +9,9 @@
 
 size_t print_distint(const dlistint_t *h)
 {
-	int i = 0;
+	int i;
+
+	i = 0;
 
 	if (h == NULL)
 	{
